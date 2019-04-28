@@ -3003,7 +3003,7 @@ h6 {
 /*---------------------------------------------------- */
 
 .name{
-	text-align: center;
+	text-align: left;
 }
 
 #me{
@@ -3018,6 +3018,8 @@ h6 {
  
 .gray{
   color: #b08fff;
+  font-size: larger;
+  text-align: left;
 }
 
 .lnr-graduation-hat{
@@ -3070,4 +3072,20 @@ h6 {
 
 .basic_info{
   color: #777777;
+}
+
+.personal_text p{
+  text-align: left;
+}
+
+.tools_expert{
+  margin-top: 50px;
+}
+
+.personal_text h4{
+  font-size: 24px;
+}
+
+.personal_text .gray{
+  font-size: 30px;
 }
