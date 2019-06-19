@@ -2515,7 +2515,7 @@ h6 {
     margin-bottom: 0px; }
 
 .tools_expert {
-  padding: 20px 0px 0px 0px; }
+  padding: 45px 0px 0px 0px; }
   .tools_expert .skill_main .skill_item {
     margin-bottom: 18px; }
     .tools_expert .skill_main .skill_item:last-child {
@@ -3088,4 +3088,33 @@ h6 {
 
 .personal_text .gray{
   font-size: 30px;
+}
+
+.tabs_inner .media-body h5, .tabs_inner .media-body h4{
+  color: white;
+  width: 300px;
+}
+.tabs_inner .media-body{
+  width: 300px;
+}
+
+.tabs_inner .d-flex p{
+  width: 200px;
+  text-align: end;
+  padding-right: 30px;
+  
+}
+.tabs_inner .d-flex{
+  padding-right: 60px !important;
+}
+.tabs_inner .media-body h5{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.location{
+  margin-top: 20px;
+}
+.cornell{
+  margin-bottom: 20px !important;
 }
