@@ -3046,8 +3046,8 @@ h6 {
     transition: all 300ms linear 0s; 
     line-height: 25px;
     text-align: left;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-left: 2px;
     border: 1px white solid;
   }
@@ -3061,7 +3061,7 @@ h6 {
   display: inline-block;
   vertical-align: text-bottom;
 }
-.fa-linkedin-in:before{
+.fa-linkedin-in:before, .fa-file-pdf:before{
   -webkit-text-stroke: 1.5px  #0F52BA;
   -webkit-text-fill-color: #fff;
 }
@@ -3270,4 +3270,41 @@ h6 {
 }
 #honor1:hover, #honor2:hover, #honor3:hover{
   box-shadow: none;
+}
+
+.input-group2 input, .input-group2 textarea{
+  width: 98% !important;
+  background: #000 !important;
+  color: white !important;
+  padding-left: 15px !important;
+  border-radius: 15px !important;
+  margin-bottom: 10px !important;
+  display: block !important;
+  border: rgba(255, 255, 255, 0.75) 1px solid;
+  padding-right: 15px;
+}
+
+.input-group2 textarea{
+  height: 100px;
+}
+
+#send{
+  width: 100px !important;
+  cursor: pointer;
+}
+
+.footerpc{
+  width: 33%;
+}
+
+.asidebt{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fa-file-pdf{
+  margin-right: 3px;
+  color: #0F52BA !important;
 }
