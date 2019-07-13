@@ -3061,9 +3061,13 @@ h6 {
   display: inline-block;
   vertical-align: text-bottom;
 }
-.fa-linkedin-in:before, .fa-file-pdf:before{
+.fa-linkedin-in:before, .fa-envelope:before, .fa-file-pdf:before, .fa-paper-plane:before, .fa-phone:before, .fa-user-graduate:before{
   -webkit-text-stroke: 1.5px  #0F52BA;
   -webkit-text-fill-color: #fff;
+}
+
+.fa-paper-plane:before{
+  -webkit-text-stroke: 1.5px  #0F52BA;
 }
 
 #none{
@@ -3307,4 +3311,20 @@ h6 {
 .fa-file-pdf{
   margin-right: 3px;
   color: #0F52BA !important;
+}
+
+.fa-paper-plane{
+  font-size: 1.7em;
+}
+
+.fa-phone{
+  font-size: 1.7em !important;
+}
+
+.fa-user-graduate{
+  font-size: 1.9em !important;
+}
+
+.fa-envelope{
+  font-size: 1.75em !important;
 }
