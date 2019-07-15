@@ -3404,5 +3404,41 @@ aside h3, .welcome_text h4{
 #home .list, #profile .list{
   margin-left: 0px !important;
 
+
+}
+
+.d-flex{
+  width: auto;
+}
+
+.footerpc aside i{
+  display: block;
+  margin-bottom: 5px;
+}
+}
+
+@media (max-width:480px){
+
+.tabs_inner .d-flex p{
+  text-align: start;
+}
+
+.tabs_inner .tab-content .tab-pane .list::before{
+  left: 5%;
+  top: auto;
+}
+
+.tabs_inner .tab-content .tab-pane .list li .media{
+  margin-left: 40px;
+}
+
+.tabs_inner .tab-content .tab-pane .list li span, .tabs_inner .tab-content .tab-pane .list li span::before{
+  left: 5%;
+}
+.tabs_inner .tab-content .tab-pane .list li span::before{
+  transform: translateX(45%);
+}
+.tabs_inner .tab-content .tab-pane .list{
+  padding-bottom: 0px;
 }
 }
