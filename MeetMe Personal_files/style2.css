@@ -3026,7 +3026,7 @@ h6 {
   color: #0F52BA !important;
   font-size: 25px !important;
 }
-.lnr-phone-handset, .lnr-envelope{
+.lnr-phone-handset, .lnr-envelope,  .fa-home{
   color: #0F52BA !important;
   font-size: 25px !important;
 }
@@ -3061,7 +3061,7 @@ h6 {
   display: inline-block;
   vertical-align: text-bottom;
 }
-.fa-linkedin-in:before, .fa-envelope:before, .fa-file-pdf:before, .fa-paper-plane:before, .fa-phone:before, .fa-user-graduate:before{
+.fa-linkedin-in:before, .fa-envelope:before, .fa-file-pdf:before, .fa-paper-plane:before, .fa-phone:before, .fa-user-graduate:before,  .fa-home:before{
   -webkit-text-stroke: 1.5px  #0F52BA;
   -webkit-text-fill-color: #fff;
 }
@@ -3325,9 +3325,11 @@ h6 {
   font-size: 1.9em !important;
 }
 
-.fa-envelope{
+.fa-envelope, .fa-home{
   font-size: 1.75em !important;
 }
+
+
 
 
 
@@ -3346,7 +3348,7 @@ h6 {
 }
 
 .basic_info{
-  width: 170px;
+  width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
