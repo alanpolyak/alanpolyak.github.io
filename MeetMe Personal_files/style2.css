@@ -2658,7 +2658,11 @@ h6 {
     font-family: "Heebo", sans-serif;
     font-weight: bold;
     margin-bottom: 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    text-align: center; }
+  .feature_item .fas {
+    text-align: center;
+  }
   .feature_item p {
     margin-bottom: 0px; }
   .feature_item .main_btn {
@@ -3252,6 +3256,7 @@ h6 {
 }
 .honorloc{
   margin-bottom: 20px !important;
+  text-align: center;
 }
 #honor1, #honor2, #honor3{
   cursor: default;
